@@ -1,0 +1,130 @@
+body{
+    background:  #F2F2F2;
+}
+.media span{
+    padding: 2px;
+} 
+.main-container{
+    background: #fff;
+    width: 375px;
+    height: 812px;
+    position: relative;
+}
+
+
+.add-todoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-todoContainer h3{
+    font-size: 32px;
+    font-weight: 300px;
+}
+.add-todoContainer i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.show-todoContainer{
+    width: 100%;
+   
+}
+.todo-content{
+    display: flex;
+    align-items: center;
+    width: 375px;
+}
+.todo-content p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 8px;
+    text-align: justify ;
+    padding-right: 10%;
+}
+.todo-content .name{
+    padding-right: 10px;
+    margin-left: 2%;
+    margin-top: 8px;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 85%;
+    
+}
+.todo-content .reminder {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    
+}
+
+.todo-content form input{
+    height:22px;
+     width:22px;
+     cursor: pointer;
+}
+.todo-content form{
+    width: 10%;
+}
+#typeText{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 310px;
+    border-radius: 10px;
+    left: 35px;
+    z-index: 1;
+    position: absolute;
+    background-color: #fff;
+}
+#typeText textarea{
+    width: 290px;
+    margin: 10px;
+    
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#typeText .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+#typeText .buttons button{
+    background: none;
+    border: none;margin-bottom: 5px;
+    font-size: 18px;
+    color: blue;
+    font-weight: 500;
+}
+#typeText h6{
+    margin-left: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.date{
+    font-size: 10px;
+    color: rgb(119, 116, 116);
+    display: inline-block;
+    margin-right: 10px;
+}
+#typeText .date-time{
+    width: 290px;
+    margin: -8px 10px 10px 10px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+#typeText p{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.date-time .dates{
+    width: 55%;
+
+}
+.date-time .times{
+    width: 40%;
+}
+
